@@ -17,7 +17,8 @@ const Home: FunctionComponent = () => {
 
   const generateJoke = (): void => {
     generateNewJoke();
-    displayResponseJoke();
+    setResponse('hidden');
+    setHideResponse('Afficher');
   }
 
 
